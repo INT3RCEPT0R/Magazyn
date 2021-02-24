@@ -27,6 +27,10 @@ namespace MagazynSkładowania.Controllers
         {
             return View();
         }
+        public IActionResult StanMagazynowy()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
